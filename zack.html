@@ -1,0 +1,168 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Photography Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .hero {
+            text-align: center;
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .hero img {
+            width: 100%;
+            max-width: 700px;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #222;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Photography</h1>
+        <p>Exploring the world through photography</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="hero">
+            <h2>Welcome</h2>
+
+            <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+                 alt="Landscape photography">
+
+            <p>
+                Welcome to my photography website. 
+                Here you can see some of my favourite photographs.
+            </p>
+
+            <a class="button" href="#gallery">View My Photos</a>
+        </section>
+
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                My name is Zakaria and I am learning photography and web design.
+                I enjoy taking pictures of places, buildings, and everyday life.
+            </p>
+        </section>
+
+
+        <section id="gallery">
+            <h2>My Gallery</h2>
+
+            <div class="gallery">
+
+                <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e"
+                     alt="Nature">
+
+                <img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390"
+                     alt="City">
+
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+                     alt="Forest">
+
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
+                     alt="Mountain">
+
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>
+                If you would like to contact me, send me an email.
+            </p>
+
+            <a class="button" href="mailto:example@email.com">
+                Email Me
+            </a>
+        </section>
+
+    </div>
+
+
+    <footer>
+        <p>© 2026 My Photography Website</p>
+    </footer>
+
+</body>
+</html>
+```
